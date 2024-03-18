@@ -1,1 +1,111 @@
-test practice
+# This is use for Single line Comment
+""" This is Use
+    for Multiple
+    Lines comment """
+
+# Simple Print and comment
+print("")
+print("First Program to print Hello World!")
+print ("Hello", "World!")
+
+# Python program to declare variables 
+print("")
+print("Program to declare and write variables")
+myNumber = 3
+print(myNumber, "integer") 
+
+myNumber2 = 4.5
+print(myNumber2, "float") 
+
+myNumber ="helloworld"
+print(myNumber, "string") 
+
+# Python program to illustrate 
+# getting input from user 
+print("")
+print("Program to take input from user's terminal")
+name = input("Enter your name: ") 
+
+# user entered the name 'ali' 
+print("Hello", name) 
+
+
+
+# Python program to illustrate 
+# selection statement Ali
+
+print("")
+print("Program to write If Else (selection statement)")
+num1 = 34
+if(num1>12): 
+	print("Num1 is good") 
+elif(num1>35): 
+	print("Num2 is not gooooo....") 
+else: 
+	print("Num2 is great") 
+
+
+#This program is write If Else statement with variable
+print("")
+
+number = 40
+
+if(number<100):
+    print("The number", number, "is smaller then 100")
+elif(number>100):
+    print("The number", number, "is greater then 100")
+else:
+    print("The number is equal")
+
+print("")
+print("This program is to call a function")
+
+# Python program to illustrate 
+# functions 
+def hello(): 
+	print("hello") 
+	print("hello again") 
+
+# calling function 
+hello()		
+
+# Python program to illustrate 
+# a simple for loop 
+print("")
+print("This program is to use For Loop in Python")
+
+for step in range(5):	 
+	print(step) 
+
+    # Python program to illustrate 
+# a simple while loop 
+
+print("")
+print("This program is to use While loop in Python")
+step = 0
+while(step < 5): 
+	print(step) 
+	step = step+1
+
+
+# Python program to illustrate a set 
+# define a set and its elements 
+print("")
+print("This program is to use SET in Python")
+
+myset = set(["Geeks", "For", "Geeks"]) 
+
+#As set doesn't have duplicate elements so, 1 geeks will not be printed 
+print(myset) 
+
+
+#This program is to take input from user and then convert the data type
+print("")
+print("This is program is used to take INPUT from the user and the convert it to INTEGER then MULTIPLY.")
+number1 = int(input("Input number 1 >> "))
+number2 = int(input("Input number 2 >> "))
+product = number1 * number2
+print("The product is ", product)
+
+
+
