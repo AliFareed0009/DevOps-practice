@@ -1,0 +1,4 @@
+
+This folder is for linux bash scripting practice
+	
+
